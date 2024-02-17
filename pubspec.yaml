@@ -1,0 +1,29 @@
+name: ui
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  clean_calendar: ^1.1.0
+  table_calendar: ^3.0.6
+  intl: ^0.17.0
+  get: ^4.6.6
+  provider: ^6.1.1
+  svg_icon: ^0.0.1
+  syncfusion_flutter_calendar: ^21.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/
+     - assets/icons/
